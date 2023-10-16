@@ -1,0 +1,77 @@
+body{
+  background: midnightblue;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  word-wrap: break-word;
+}
+
+h1 a{
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.lazar {
+  color: black;
+  font-weight: heavy;
+  font-style: italic;
+  text-shadow: 0.04em 0.04em lightseagreen,
+               0.08em 0.08em antiquewhite,
+               0.12em 0.12em black,
+               0.16em 0.16em cornsilk,
+               0.20em 0.20em midnightblue;
+}
+
+.interactable-zone{
+  background: oldlace;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 50px;
+}
+
+footer{
+  box-sizing: border-box;
+  background: oldlace;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#help, #museum{
+  background: oldlace;
+  margin: 50px;
+  padding: 5px;
+}
+
+#museum img {
+  max-height: 500px;
+  max-width: 100%;
+}
+
+#museum details{
+  padding-bottom: 20px;
+}
+
+#museum summary{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#museum details div {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
